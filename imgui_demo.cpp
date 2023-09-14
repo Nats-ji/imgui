@@ -249,7 +249,7 @@ void ImGui::ShowDemoWindow(bool* p_open)
     // Most functions would normally just crash if the context is missing.
     IM_ASSERT(ImGui::GetCurrentContext() != NULL && "Missing dear imgui context. Refer to examples app!");
 
-    ShowFontDemoWindow();
+    // ShowFontDemoWindow();
 
     // Examples Apps (accessible from the "Examples" menu)
     static bool show_app_main_menu_bar = false;
